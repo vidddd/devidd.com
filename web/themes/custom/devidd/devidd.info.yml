@@ -1,6 +1,6 @@
 name: devidd
 type: theme
-base theme:  false
+base theme: false
 core_version_requirement: ^8 || ^9 || ^10
 libraries:
  - devidd/global-css-js

@@ -21,4 +21,4 @@ global-css-js:
   - core/jquery.ui.effects.transfer
   - core/jquery.ui.effects.clip
  js:
-  js/customjs.js: {}
+  js/devidd.js: {}

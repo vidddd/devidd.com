@@ -3,28 +3,26 @@
     font-style: normal;
     font-weight: normal;
     src: local('Space Mono Regular'), url('../fonts/SpaceMono-Regular.woff') format('woff');
-    }
-    
-
-    @font-face {
+}
+@font-face {
     font-family: 'Space Mono Italic';
     font-style: normal;
     font-weight: normal;
     src: local('Space Mono Italic'), url('../fonts/SpaceMono-Italic.woff') format('woff');
-    }
-    
-
-    @font-face {
+}
+@font-face {
     font-family: 'Space Mono Bold';
     font-style: normal;
     font-weight: normal;
     src: local('Space Mono Bold'), url('../fonts/SpaceMono-Bold.woff') format('woff');
-    }
-    
-
-    @font-face {
+}
+@font-face {
     font-family: 'Space Mono Bold Italic';
     font-style: normal;
     font-weight: normal;
     src: local('Space Mono Bold Italic'), url('../fonts/SpaceMono-BoldItalic.woff') format('woff');
-    }
+}
+
+body {
+   font-family:'Space Mono Regular';
+}
