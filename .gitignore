@@ -8,4 +8,5 @@ web/sites/*/services*.yml
 web/sites/*/files
 web/sites/*/private
 
+.env
 
