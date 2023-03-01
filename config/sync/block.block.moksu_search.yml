@@ -1,0 +1,23 @@
+uuid: 8a51b38c-4048-40a2-b6eb-d032af0a58bb
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - moksu
+_core:
+  default_config_hash: lX31apw6zxRSyObIznMgtTOdBciRkc0KsKZ6fd0PeRk
+id: moksu_search
+theme: moksu
+region: header
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

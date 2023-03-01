@@ -1,0 +1,22 @@
+uuid: 8da39316-9812-4853-a56e-e63fdc63f9ea
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - moksu
+_core:
+  default_config_hash: Fzd68yEhlvUl6eIL3x5qQlaA38jF4seBbgd01bcSKXE
+id: moksu_messages
+theme: moksu
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

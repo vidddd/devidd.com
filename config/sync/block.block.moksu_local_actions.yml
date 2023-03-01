@@ -1,0 +1,20 @@
+uuid: 8bb30d2a-3e7a-4714-81e4-a79f00d6e3e2
+langcode: es
+status: true
+dependencies:
+  theme:
+    - moksu
+_core:
+  default_config_hash: 0mFXUmiBDh5ljyp5kLSnDlagjct6mGEKZn0SOAJcVQ0
+id: moksu_local_actions
+theme: moksu
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

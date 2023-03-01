@@ -1,0 +1,23 @@
+uuid: a2d7b581-f7c1-4484-bc81-aaaf4433f193
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - devidd
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: devidd_search_form_wide
+theme: devidd
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulario de búsqueda (ancho)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: d634ae75-7bfa-4298-a7a3-8ec950c30ffe
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - moksu
+_core:
+  default_config_hash: osvyHoiRNfD2qj1tSazv3XEvZH0YyoYMVl3yL0bS7lQ
+id: moksu_main_menu
+theme: moksu
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

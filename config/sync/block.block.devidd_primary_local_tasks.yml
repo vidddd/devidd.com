@@ -1,0 +1,22 @@
+uuid: c9e86850-9bee-4556-bb15-0db36e59749d
+langcode: es
+status: true
+dependencies:
+  theme:
+    - devidd
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: devidd_primary_local_tasks
+theme: devidd
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas principales'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

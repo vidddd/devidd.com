@@ -1,0 +1,22 @@
+uuid: a8bbf552-0d90-46a5-b23d-597de240049e
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - moksu
+_core:
+  default_config_hash: lEfkKChsDHbyMfutks7zwLrEFtIHyXmkbBB-LUS5Jqw
+id: moksu_help
+theme: moksu
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
