@@ -1,16 +1,12 @@
 name: devidd
 type: theme
-base theme: false
-core_version_requirement: ^8 || ^9 || ^10
+base theme: stable9
+core_version_requirement: ^10
 libraries:
  - devidd/global-css-js
 regions:
  header: Header
  primary_menu: 'Primary menu'
- secondary_menu: 'Secondary menu'
- page_top: 'Page top'
- page_bottom: 'Page bottom'
- featured_top: 'Featured top'
- sidebar_second: 'Second sidebar'
+ sidebar: 'Sidebar'
  content: 'Content'
  footer: 'Footer'
