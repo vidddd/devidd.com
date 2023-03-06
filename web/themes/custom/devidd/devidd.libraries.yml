@@ -2,7 +2,7 @@ global-css-js:
  version: VERSION
  css:
   theme:
-   css/bootstrap.css: {}
+   css/tailwind.min.css: {}
    css/style.css: {}
  dependencies:
   - core/jquery

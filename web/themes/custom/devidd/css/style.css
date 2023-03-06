@@ -32,4 +32,28 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #161515;
     font-size: 1.25rem;
 }
-º
+.custom-foreground-color {
+    color: #f56565;
+}
+.custom-border-bottom {
+    border-bottom: 2px solid #f56565;
+}
+
+/* ScrollBar */
+/* width */
+#scrollbar::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+ 
+   
+  /* Handle */
+  #scrollbar::-webkit-scrollbar-thumb {
+    background: #718096; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  #scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #2d3748; 
+  }
