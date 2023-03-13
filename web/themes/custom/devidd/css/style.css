@@ -42,18 +42,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 /* ScrollBar */
 /* width */
 #scrollbar::-webkit-scrollbar {
-    width: 5px;
-  }
+  width: 5px;
+}
+
+/* Handle */
+#scrollbar::-webkit-scrollbar-thumb {
+  background: #718096; 
+  border-radius: 10px;
+}
   
- 
-   
-  /* Handle */
-  #scrollbar::-webkit-scrollbar-thumb {
-    background: #718096; 
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  #scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #2d3748; 
-  }
+/* Handle on hover */
+#scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #2d3748; 
+}
+
+span.titulo {
+    font-size: 3em;
+    font-weight: bolder;
+}
