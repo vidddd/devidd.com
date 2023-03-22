@@ -570,16 +570,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "10.0.4",
+            "version": "10.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "d4051f23e51522703e3c26ecbc147449ba88eccc"
+                "reference": "dad1e9f8e98bd7818ffc37b41cf4d7e483048b43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/d4051f23e51522703e3c26ecbc147449ba88eccc",
-                "reference": "d4051f23e51522703e3c26ecbc147449ba88eccc",
+                "url": "https://api.github.com/repos/drupal/core/zipball/dad1e9f8e98bd7818ffc37b41cf4d7e483048b43",
+                "reference": "dad1e9f8e98bd7818ffc37b41cf4d7e483048b43",
                 "shasum": ""
             },
             "require": {
@@ -722,22 +722,22 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/10.0.4"
+                "source": "https://github.com/drupal/core/tree/10.0.5"
             },
-            "time": "2023-03-01T14:01:00+00:00"
+            "time": "2023-03-15T14:30:13+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "10.0.4",
+            "version": "10.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "88f1c7796f6f610a2cf7dffc354dd6f6abf2ccfb"
+                "reference": "a4a5c5290ff90ce1eb2aa31dc4913cb29e9679a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/88f1c7796f6f610a2cf7dffc354dd6f6abf2ccfb",
-                "reference": "88f1c7796f6f610a2cf7dffc354dd6f6abf2ccfb",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/a4a5c5290ff90ce1eb2aa31dc4913cb29e9679a3",
+                "reference": "a4a5c5290ff90ce1eb2aa31dc4913cb29e9679a3",
                 "shasum": ""
             },
             "require": {
@@ -745,7 +745,7 @@
                 "composer/semver": "~3.3.2",
                 "doctrine/annotations": "~1.13.3",
                 "doctrine/lexer": "~1.2.3",
-                "drupal/core": "10.0.4",
+                "drupal/core": "10.0.5",
                 "egulias/email-validator": "~3.2.1",
                 "guzzlehttp/guzzle": "~7.5.0",
                 "guzzlehttp/promises": "~1.5.2",
@@ -801,9 +801,9 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/10.0.4"
+                "source": "https://github.com/drupal/core-recommended/tree/10.0.5"
             },
-            "time": "2023-03-01T14:01:00+00:00"
+            "time": "2023-03-15T14:30:13+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -1762,16 +1762,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.4.3",
+            "version": "2.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "67c26b443f348a51926030c83481b85718457d3d"
+                "reference": "3cf1b6d4f0c820a2cf8bcaec39fc698f3443b5cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/67c26b443f348a51926030c83481b85718457d3d",
-                "reference": "67c26b443f348a51926030c83481b85718457d3d",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/3cf1b6d4f0c820a2cf8bcaec39fc698f3443b5cf",
+                "reference": "3cf1b6d4f0c820a2cf8bcaec39fc698f3443b5cf",
                 "shasum": ""
             },
             "require": {
@@ -1861,7 +1861,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.4.3"
+                "source": "https://github.com/guzzle/psr7/tree/2.4.4"
             },
             "funding": [
                 {
@@ -1877,7 +1877,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-26T14:07:24+00:00"
+            "time": "2023-03-09T13:19:02+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -4998,16 +4998,16 @@
         },
         {
             "name": "consolidation/annotated-command",
-            "version": "4.8.1",
+            "version": "4.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "8fefdcff0cdb61bc04e34323f626404d536786a5"
+                "reference": "7f5dd1aafb93a10593ed70f3caa6a0cd5a32f0e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/8fefdcff0cdb61bc04e34323f626404d536786a5",
-                "reference": "8fefdcff0cdb61bc04e34323f626404d536786a5",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/7f5dd1aafb93a10593ed70f3caa6a0cd5a32f0e3",
+                "reference": "7f5dd1aafb93a10593ed70f3caa6a0cd5a32f0e3",
                 "shasum": ""
             },
             "require": {
@@ -5048,9 +5048,9 @@
             "description": "Initialize Symfony Console commands from annotated command class methods.",
             "support": {
                 "issues": "https://github.com/consolidation/annotated-command/issues",
-                "source": "https://github.com/consolidation/annotated-command/tree/4.8.1"
+                "source": "https://github.com/consolidation/annotated-command/tree/4.8.2"
             },
-            "time": "2023-02-28T15:36:38+00:00"
+            "time": "2023-03-11T19:32:28+00:00"
         },
         {
             "name": "consolidation/config",
@@ -6146,16 +6146,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.11.12",
+            "version": "v0.11.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "52cb7c47d403c31c0adc9bf7710fc355f93c20f7"
+                "reference": "722317c9f5627e588788e340f29b923e58f92f54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/52cb7c47d403c31c0adc9bf7710fc355f93c20f7",
-                "reference": "52cb7c47d403c31c0adc9bf7710fc355f93c20f7",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/722317c9f5627e588788e340f29b923e58f92f54",
+                "reference": "722317c9f5627e588788e340f29b923e58f92f54",
                 "shasum": ""
             },
             "require": {
@@ -6216,9 +6216,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.11.12"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.13"
             },
-            "time": "2023-01-29T21:24:40+00:00"
+            "time": "2023-03-21T14:22:44+00:00"
         },
         {
             "name": "symfony/filesystem",

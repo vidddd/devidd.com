@@ -18,8 +18,8 @@ web/sites/*/services*.yml
 .env
 
 # Ignore drupal core (if not versioning drupal sources)
-/web/vendor
-/web/core
+/web/vendor/
+/web/core/
 /web/modules/README.txt
 /web/profiles/README.txt
 /web/sites/development.services.yml
